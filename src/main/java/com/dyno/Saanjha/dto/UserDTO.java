@@ -21,6 +21,7 @@ public class UserDTO {
         private String lastName;
         private String email;
         private String profilePhoto;
+        private String phone;
         private String password;
 
 
@@ -30,6 +31,7 @@ public class UserDTO {
             this.firstName = user.getFirstName();
             this.lastName = user.getLastName();
             this.email = user.getEmail();
+            this.phone = user.getPhone();
             this.profilePhoto = user.getProfilePhoto();
             this.password = user.getPassword();
 
