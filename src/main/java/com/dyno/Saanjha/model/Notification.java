@@ -29,6 +29,7 @@ public class Notification {
     @Column(name = "type", nullable = false)
     private NotificationType type;
 
+    @Column(columnDefinition = "TEXT")
     private String message;
 
     @CreationTimestamp
