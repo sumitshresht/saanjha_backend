@@ -22,6 +22,7 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long postId;
+    @Column(columnDefinition = "TEXT")
     private String postContent;
     private String imageUrl;
     @CreationTimestamp
